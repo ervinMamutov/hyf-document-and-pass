@@ -1,0 +1,34 @@
+7/16/2023, 12:57:39 PM
+
+DEPRECATION: Jasmine#onComplete is deprecated. Instead of calling onComplete, set the Jasmine instance's exitOnCompletion property to false and use the promise returned from the execute method.
+    at <Jasmine>
+    at Jasmine.onComplete (/home/akmen/Documents/code/hackYourFuture/intensive/bf-behavior-strategy-implementation/2-write/2-document-and-pass/document-and-pass/node_modules/jasmine/lib/jasmine.js:474:12)
+    at testExercise (/home/akmen/Documents/code/hackYourFuture/intensive/bf-behavior-strategy-implementation/2-write/2-document-and-pass/document-and-pass/scripts/test.js:69:11)
+    at /home/akmen/Documents/code/hackYourFuture/intensive/bf-behavior-strategy-implementation/2-write/2-document-and-pass/document-and-pass/scripts/test.js:84:5
+    at module.exports.jasmineDone (/home/akmen/Documents/code/hackYourFuture/intensive/bf-behavior-strategy-implementation/2-write/2-document-and-pass/document-and-pass/node_modules/jasmine/lib/reporters/completion_reporter.js:21:5)
+    at <Jasmine>
+Note: This message will be shown only once. Set the verboseDeprecations config property to true to see every occurrence.
+Started
+.F..F..F..F..F..F.
+
+Failures:
+1) sumAll sums numbers within the range
+.    Expected undefined to equal 10..
+
+2) sumAll works with large numbers
+.    Expected undefined to equal 8002000..
+
+3) sumAll works with larger number first
+.    Expected undefined to equal 7626..
+
+4) sumAll returns ERROR with negative numbers
+.    Expected undefined to equal 'ERROR'..
+
+5) sumAll returns ERROR with non-number parameters
+.    Expected undefined to equal 'ERROR'..
+
+6) sumAll returns ERROR with non-number parameters
+.    Expected undefined to equal 'ERROR'..
+
+6 specs, 6 failures
+Finished in 0.006 seconds
