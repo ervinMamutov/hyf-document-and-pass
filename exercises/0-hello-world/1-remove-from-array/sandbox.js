@@ -1,1 +1,0 @@
-const removeFromArray = require('./index');

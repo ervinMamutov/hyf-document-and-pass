@@ -1,1 +1,0 @@
-const reverseString = require('./index');
