@@ -1,1 +1,0 @@
-const fibonacci = require('./index');
