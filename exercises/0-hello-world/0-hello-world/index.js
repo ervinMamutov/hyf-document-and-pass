@@ -6,8 +6,6 @@
  *
  * @example
  *
- * const greeting = hello('World');
- * console.log(greeting); // 'Hello, World!'
  *
  */
 const hello = (thing) => {
